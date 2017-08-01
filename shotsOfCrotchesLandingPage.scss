@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "myfont";
-    src: url("https://github.com/okfocus/times-new-ramen/blob/gh-pages/TimesNewRamen-Regular.woff") format('woff');
-}
+@import "compass/css3";
 
 body{
   //background: #e8e9d7;
@@ -64,9 +61,12 @@ span{
 
 }
 
+
+
 .titleText{
   font-size: 10vw;
-  font-family: myFont;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #de6e6c;
   text-align: center;
-  color: #de6e6c	;
+
 }
