@@ -1,0 +1,43 @@
+body{
+  background: #e8e9d7;
+  width: 100%;
+  height: 100%;
+}
+
+p{
+
+}
+
+h1{
+
+}
+
+.wrapper{
+  width: 100%;
+  height: 80%;
+  margin: 10px;
+  background: #7f8522;
+
+
+}
+
+.textWrapper{
+
+height: auto;
+background: #232418;
+border-style: solid;
+width: 40%;
+margin: 5px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+resize: both;
+position: static;
+
+}
+
+.titleText{
+font-size: 10vw;
+text-align: center;
+color: #ce2724	;
+}
