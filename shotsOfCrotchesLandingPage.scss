@@ -1,10 +1,25 @@
+@font-face {
+    font-family: "myfont";
+    src: url("https://github.com/okfocus/times-new-ramen/blob/gh-pages/TimesNewRamen-Regular.woff") format('woff');
+}
+
 body{
-  background: #e8e9d7;
+  //background: #e8e9d7;
   width: 100%;
   height: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+  background-image: url("https://raw.githubusercontent.com/kellyvigil/shotsofcrotches/master/images/landingPageImage.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  //margin-top: 0px;
 }
 
 p{
+
+
 
 }
 
@@ -12,32 +27,46 @@ h1{
 
 }
 
+span{
+  vertical-align: middle;
+}
+
+.backgroundImage{
+
+  width: 100%;
+  height: 100%;
+
+  //background-color: #981e1e;
+}
+
+
 .wrapper{
   width: 100%;
   height: 80%;
-  margin: 10px;
-  background: #7f8522;
+  paddoing-top: 5%;
+  //background: rgba(255,255,0,1);
 
 
 }
 
 .textWrapper{
 
-height: auto;
-background: #232418;
-border-style: solid;
-width: 40%;
-margin: 5px auto;
-display: flex;
-justify-content: center;
-align-items: center;
-resize: both;
-position: static;
+  height: auto;
+  //background: #232418;
+  //border-style: solid;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  position:static;
 
 }
 
 .titleText{
-font-size: 10vw;
-text-align: center;
-color: #ce2724	;
+  font-size: 10vw;
+  font-family: myFont;
+  text-align: center;
+  color: #de6e6c	;
 }
